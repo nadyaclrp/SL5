@@ -26,3 +26,6 @@ Route::fallback(function(){
 
 Route::get('/profile', [collabController::class,'experiences']);
 Route::redirect('/', '/profile');
+
+Route::get('/collabDetails/{application}', [productController::class,'details']);
+
