@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\collabController;
+use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,11 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('profile');
-});
+// Route::get('/', function () {
+//     return view('profile');
+// });
 
 //kalau notfound langsung ke fallback kesini
 Route::fallback(function(){
     return 'Not Found!';
 });
+
+Route::get('/profile', [collabController::class,'experiences']);
+Route::redirect('/', '/profile');

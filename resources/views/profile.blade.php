@@ -111,42 +111,39 @@
             <div id="experiences" class=" h-screen bg-gradient-to-b from-lavenderGray to-white justify-center pt-20">
                 <h1 class="font-extrabold text-5xl text-navy text-center p-16">Collab Project</h1>
                 <div class="flex flex-row justify-center mb-8 mt-8">
-                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('/assets/Fugemy.png')" ></div>
-                        <div class="mt-4 text-white hover:text-peach">
-                            <h1 class="font-thin text-xs">Application</h1>
-                            <h1 class="font-semibold">Fugemy</h1>
-                            <h1 class="font-thin text-xs mt-3">Description</h1>
-                            <h1 class="font-semibold">Education Application</h1>
-                        </div>
-                    </div>
-                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('/assets/Foundly.png')" ></div>
-                        <div class="mt-4 text-white hover:text-peach">
-                            <h1 class="font-thin text-xs">Application</h1>
-                            <h1 class="font-semibold">Foundly</h1>
-                            <h1 class="font-thin text-xs mt-3">Description</h1>
-                            <h1 class="font-semibold">Object Recognition</h1>
-                        </div>
-                    </div>
-                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('/assets/PoorBye.png')" ></div>
-                        <div class="mt-4 text-white hover:text-peach">
-                            <h1 class="font-thin text-xs">Application</h1>
-                            <h1 class="font-semibold">PoorBye</h1>
-                            <h1 class="font-thin text-xs mt-3">Description</h1>
-                            <h1 class="font-semibold">Financial Application</h1>
-                        </div>
-                    </div>
-                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('/assets/heartPrediction.png')" ></div>
-                        <div class="mt-4 text-white hover:text-peach">
-                            <h1 class="font-thin text-xs">Application</h1>
-                            <h1 class="font-semibold">Prediction Heart Disease</h1>
-                            <h1 class="font-thin text-xs mt-3">Description</h1>
-                            <h1 class="font-semibold">Machine Learning</h1>
-                        </div>
-                    </div>
+                    @foreach ($collabCard as $card)
+                        @if ($card['description'] == 'Artificial Intelligence')
+                            <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                                <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light border-[5px] border-yellow-200" style="background-image: url({{$card['image']}})" ></div>
+                                <div class="mt-4 text-white hover:text-peach">
+                                    <h1 class="font-thin text-xs">Application</h1>
+                                    <h1 class="font-semibold">{{$card['application']}}</h1>
+                                    <h1 class="font-thin text-xs mt-3">Description</h1>
+                                    <h1 class="font-semibold">{{$card['description']}}</h1>
+                                </div>
+                            </div>
+                        @elseif ($card['description'] == 'Machine Learning')
+                            <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                                <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light border-[5px] border-red-700" style="background-image: url({{$card['image']}})" ></div>
+                                <div class="mt-4 text-white hover:text-peach">
+                                    <h1 class="font-thin text-xs">Application</h1>
+                                    <h1 class="font-semibold">{{$card['application']}}</h1>
+                                    <h1 class="font-thin text-xs mt-3">Description</h1>
+                                    <h1 class="font-semibold">{{$card['description']}}</h1>
+                                </div>
+                            </div>
+                        @else
+                            <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                                <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light border-[5px] border-green-600" style="background-image: url({{$card['image']}})" ></div>
+                                <div class="mt-4 text-white hover:text-peach">
+                                    <h1 class="font-thin text-xs">Application</h1>
+                                    <h1 class="font-semibold">{{$card['application']}}</h1>
+                                    <h1 class="font-thin text-xs mt-3">Description</h1>
+                                    <h1 class="font-semibold">{{$card['description']}}</h1>
+                                </div>
+                            </div>
+                        @endif
+                    @endforeach
                 </div>
             </div>
 
