@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('profile');
+});
+
+//kalau notfound langsung ke fallback kesini
+Route::fallback(function(){
+    return 'Not Found!';
 });
