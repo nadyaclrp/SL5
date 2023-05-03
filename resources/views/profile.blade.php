@@ -134,7 +134,7 @@
                             </a>
                         @else
                             <a href="/collabDetails/{{$card['application']}}" class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                                <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light border-[5px] border-green-600" style="background-image: url({{$card['image']}})" ></div>
+                                <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light border-[5px] border-[#C0C0C0]-600" style="background-image: url({{$card['image']}})" ></div>
                                 <div class="mt-4 text-white hover:text-green-400 hover:text-shadow-lg">
                                     <h1 class="font-thin text-xs">Application</h1>
                                     <h1 class="font-semibold">{{$card['application']}}</h1>

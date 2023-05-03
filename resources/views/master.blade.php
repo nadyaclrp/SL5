@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h3 class="text-center font-bold text-navy text-3xl pt-8">@yield('titlePage')</h3>
+    <h3 class="text-center font-bold text-navy text-3xl">@yield('titlePage')</h3>
     @yield('body')
 </body>
 </html>
