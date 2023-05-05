@@ -1,66 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Self Learning 5 Web Programming 
+Nama	:		Nadya Clarine Purba  <br>
+NIM	: 		2502040511<br>
+Kelas	: 		PPTI 12<br>
+<br>
+Website Profile ini dikumpulkan dengan tujuan pemenuhan tugas Self-Learning 5  mata kuliah Web Programming, dengan menggunakan **Laravel** dan CSS Framework yaitu **Tailwind**.<br>
+Pada web ini akan ditampilkan profile pribadi  yang akan memberikan gambaran tentang diri saya, lewat beberapa section, berupa: biodata, skills, pengalaman project, riwayat pendidikan, dan kontak.
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Full View
+![FullView](https://github.com/nadyaclrp/SL5/blob/main/Documentation/FullView.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Landing Page
+Ini adalah tampilan awal website yang berisikan navigasi bar yang terdiri dari section-section pada website ini, yaitu  **Biodata, Skills, Experiences, Education, dan Reach**. Dilengkapi dengan foto diri pada sisi kiri serta kategori website, nama diri, dan deskripsi singkat halaman pada sisi kanan.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![LandingPage](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Landing%20Page.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Biodata
+Section ini berisikan deskripsi diri dan hobi saya selaku pembuat website.
 
-## Laravel Sponsors
+![AboutMe](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Biodata.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Skills
+Section ini berisikan skills general dilengkapi rating yang mucul ketika di hover, dan rincian bahasa pemograman yang sudah saya pelajari.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![Skills](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Skills.png)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Experiences
+Section ini berisikan nama aplikasi, deskripsi aplikasi, dan gambar tampilan aplikasi dari projek kolaborasi dengan tim saya. Warna border project dibedakan berdasarkan jenis projectnya, border *red* (merah) untuk project "Machine Learning", border *gold* (emas kekuningan) untuk project "Artificial Intellegence", dan border *silver* (perak) untuk project dengan jenis lainnya. Kemudian akan ditampilkan project details dari tiap project yang diklik.
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Experiences](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Experiences.png)
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Education
+Section ini berisikan riwayat pendidikan formal dan riwayat pencapaian saya.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Education](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Education.png)
+
+
+## Reach
+Section ini dibuat dengan tampilan berupa footer yang berisikan gambar diri, kontak dan social media yang dapat dihubungi, pilihan section, serta keterangan institusi yang dituju. Yang mana, ketika diklik tiap-tiap ikon dan tulisannya dapat langsung redirect ke link pribadi  kontak dan sosial media saya.
+
+![Reach](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Reach.png) 
+
+
+# Tutorial Mengunduh dan Menjalankan Website
+
+--> **Dengan Git Clone**
+1. Install Git terlebih dahulu, pada perangkat Anda. Installasi dapat menggunakan link berikut: https://www.atlassian.com/git/tutorials/install-git#windows
+2. Jalankan clone repository ini pada terminal perangkat Anda
+`> git clone https://github.com/nadyaclrp/SL1.git`.
+3. Buka folder repository yang sudah terdownload pada code editor Anda (Disarankan menggunakan Visual Studio Code).
+4. Jalankan perintah `composer install` dan `cp .env.example .env` pada terminal.
+5. Jalankan perintah `npm install` untuk menginstall node package manager pada device.
+6. Jalankan perintah `npm run build` dan `php artisan key:generate`.
+7. Jalankan program dengan perintah `php artisan serve`.
+8. Anda sudah dapat menjalankan program secara langsung pada device Anda, melalui link yang ditampilkan pada terminal.
+
+
+--> **Manual**
+1. Download repository dengan buka dan pilih pada tombol `Code > Download ZIP`.
+2. Buka folder yang sudah didownload pada Code Editor Anda (Disarankan menggunakan Visual Studio Code).
+3. Install npm package dengan NodeJS terlebih dahulu pada device Anda. Atau dapat mengikuti cara pada link berikut: https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+4. Install package Tailwind CSS untuk Laravel pada device Anda. Atau dapat mengikuti cara pada link berikut: https://tailwindcss.com/docs/guides/laravel
+5. Buka terminal code editor Anda.
+6. Jalankan perintah `npm run dev` dan `php artisan serve` untuk menjalankan program.
+7. Anda sudah dapat menjalankan program secara langsung pada device Anda, melalui link yang ditampilkan pada terminal.
