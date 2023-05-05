@@ -1,4 +1,3 @@
-
 # Self Learning 5 Web Programming 
 Nama	:		Nadya Clarine Purba  <br>
 NIM	: 		2502040511<br>
@@ -7,7 +6,7 @@ Kelas	: 		PPTI 12<br>
 Website Profile ini dikumpulkan dengan tujuan pemenuhan tugas Self-Learning 5  mata kuliah Web Programming, dengan menggunakan **Laravel** dan CSS Framework yaitu **Tailwind**.<br>
 Pada web ini akan ditampilkan profile pribadi  yang akan memberikan gambaran tentang diri saya, lewat beberapa section, berupa: biodata, skills, pengalaman project, riwayat pendidikan, dan kontak.
 
-
+![DisplayFull](https://github.com/nadyaclrp/SL5/blob/main/Documentation/ProfileView.gif)
 
 ## Full View
 ![FullView](https://github.com/nadyaclrp/SL5/blob/main/Documentation/FullView.png)
@@ -38,6 +37,9 @@ Section ini berisikan nama aplikasi, deskripsi aplikasi, dan gambar tampilan apl
 ![Experiences](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Experiences.png)
 
 
+**Fugemy's Project Details View**
+![ProjectDetails_Fugemy](https://github.com/nadyaclrp/SL5/blob/main/Documentation/ProjectDetails_Fugemy.png)
+
 ## Education
 Section ini berisikan riwayat pendidikan formal dan riwayat pencapaian saya.
 
@@ -56,7 +58,7 @@ Section ini dibuat dengan tampilan berupa footer yang berisikan gambar diri, kon
 --> **Dengan Git Clone**
 1. Install Git terlebih dahulu, pada perangkat Anda. Installasi dapat menggunakan link berikut: https://www.atlassian.com/git/tutorials/install-git#windows
 2. Jalankan clone repository ini pada terminal perangkat Anda
-`> git clone https://github.com/nadyaclrp/SL1.git`.
+`> https://github.com/nadyaclrp/SL5.git`.
 3. Buka folder repository yang sudah terdownload pada code editor Anda (Disarankan menggunakan Visual Studio Code).
 4. Jalankan perintah `composer install` dan `cp .env.example .env` pada terminal.
 5. Jalankan perintah `npm install` untuk menginstall node package manager pada device.
