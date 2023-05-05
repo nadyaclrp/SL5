@@ -6,16 +6,16 @@
         {{-- landing page --}}
             <div class="bg-gradient-to-l from-lavenderGray text-navy w-full">
                 {{-- navbar --}}
-                <div class="fixed flex flex-row justify-between font-semibold w-full h-auto p-5 ">
-                    <div class="flex flex-row w-3/6 justify-start ml-3">
+                <div class="fixed flex flex-row justify-between font-semibold w-full h-auto p-5 group hover:bg-white hover:bg-opacity-40">
+                    <div class="flex flex-row w-3/6 justify-start ml-3 invisible group-hover:visible">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#232946" d="M7 9H2V7h5v2zm0 3H2v2h5v-2zm13.59 7l-3.83-3.83c-.8.52-1.74.83-2.76.83c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5c0 1.02-.31 1.96-.83 2.75L22 17.59L20.59 19zM17 11c0-1.65-1.35-3-3-3s-3 1.35-3 3s1.35 3 3 3s3-1.35 3-3zM2 19h10v-2H2v2z"/></svg>
                     </div>
                     <div class="flex flex-row justify-evenly w-3/6 fix">
-                        <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#biodata">Biodata</a>
-                        <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#skills">Skills</a>
-                        <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#experiences">Experiences</a>
-                        <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#education">Education</a>
-                        <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach"  href="#reach">Reach</a>
+                        <a class="invisible group-hover:visible hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#biodata">Biodata</a>
+                        <a class="invisible group-hover:visible hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#skills">Skills</a>
+                        <a class="invisible group-hover:visible hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#experiences">Experiences</a>
+                        <a class="invisible group-hover:visible hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#education">Education</a>
+                        <a class="invisible group-hover:visible hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach"  href="#reach">Reach</a>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@
                             </svg>
                         </span>
                     </div>
-                    <div class=" m-4 w-3/6 pr-12 mt-16">
+                    <div class=" m-4 w-3/6 pr-12 mt-20">
                         <div class="font-thin text-peach bg-navy mb-2 w-fit p-2">Education</div>
                         <h1 class="font-extrabold text-[4.5vw] mt-2 mb-2">Nadya Clarine Purba</h1>
                         <h1 class="font-normal mt-2 mb-2">Selamat datang di landing page Nadya, seorang mahasiswa inspiratif! Halaman ini adalah tempat di mana Anda dapat mengenal lebih dekat tentang Nadya, seorang mahasiswa yang menginspirasi banyak orang melalui perjuangannya dalam meraih mimpi dan mencapai tujuan hidupnya.
@@ -323,9 +323,9 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                                  </td>
                                 <td>
-                                    <a class="font-thin" href="https://github.com/nadyaclrp">
+                                    <h3 class="font-thin">
                                     +628123456789
-                                    </a>
+                                    </h3>
                                     </td>
                                 </tr>
                             </table>

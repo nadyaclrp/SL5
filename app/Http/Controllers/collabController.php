@@ -21,6 +21,8 @@ class collabController extends Controller
         $detailedProject = [
             ['projectName' => 'Fugemy', 'category' => 'Silver (Application)', 'apaItu' => '
                 FuGemy is an educational website that was founded in December 2010. Its branches are spread all over the world. FuGemy provides services to sell courses to people who want to learn online.
+                This app is an online learning platform specially designed for high school students. This application provides access to students to study various subjects taken at school. Academic course applications for high school students usually provide learning modules that have been developed by experts and experienced teachers, and are packaged in the form of videos, texts and images that are interesting and easy to understand. With this academic course application for high school students, students can get access to learning that is more flexible and can study anytime and anywhere using their devices such as smartphones, tablets or laptops.
+The application also displays testimonials from alumni who have successfully graduated from well-known Indonesian universities.
                 ', 'founderImage' => '../assets/fugemyFounder.jpg', 'webImage' => '../assets/fugemyWeb.png'],
             ['projectName' => 'Foundly', 'category' => 'Gold (Artificial Intelligence)', 'apaItu' => '
                 Object recognition is the area of artificial intelligence (AI) concerned with the abilities of robots and other AI implementations to recognize various things and entities.
