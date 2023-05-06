@@ -40,6 +40,15 @@ Section ini berisikan nama aplikasi, deskripsi aplikasi, dan gambar tampilan apl
 **Fugemy's Project Details View**
 ![ProjectDetails_Fugemy](https://github.com/nadyaclrp/SL5/blob/main/Documentation/ProjectDetails_Fugemy.png)
 
+**Foundly's Project Details View**
+![ProjectDetailsScreenView_Foundly](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Foundly_ScreenDetails.jpeg)
+
+**PoorBye's Project Details View**
+![ProjectDetailsScreenView_PoorBye](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Poorbye_ScreenDetails.jpeg)
+
+**Heart Disease Prediction's Project Details View**
+![ProjectDetailsScreenView_HDP](https://github.com/nadyaclrp/SL5/blob/main/Documentation/HeartDiseasePrediction_ScreenDetails.jpeg)
+
 ## Education
 Section ini berisikan riwayat pendidikan formal dan riwayat pencapaian saya.
 
