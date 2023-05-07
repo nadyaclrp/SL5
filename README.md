@@ -1,10 +1,10 @@
 # Self Learning 5 Web Programming 
-Nama	:		Nadya Clarine Purba  <br>
+Name	:		Nadya Clarine Purba  <br>
 NIM	: 		2502040511<br>
-Kelas	: 		PPTI 12<br>
+Class	: 		PPTI 12<br>
 <br>
-Website Profile ini dikumpulkan dengan tujuan pemenuhan tugas Self-Learning 5  mata kuliah Web Programming, dengan menggunakan **Laravel** dan CSS Framework yaitu **Tailwind**.<br>
-Pada web ini akan ditampilkan profile pribadi  yang akan memberikan gambaran tentang diri saya, lewat beberapa section, berupa: biodata, skills, pengalaman project, riwayat pendidikan, dan kontak.
+This website profile is collected for the purpose of fulfilling the Self-Study Assignment for Web Programming courses using **Laravel** and the CSS Framework, **Tailwind**.<br>
+On this website a personal profile will be displayed which will provide an overview of myself, through several sections, in the form of: bio, skills, project experience, educational history, and contacts.
 
 ![DisplayFull](https://github.com/nadyaclrp/SL5/blob/main/Documentation/ProfileView.gif)
 
@@ -13,25 +13,25 @@ Pada web ini akan ditampilkan profile pribadi  yang akan memberikan gambaran ten
 
 
 ## Landing Page
-Ini adalah tampilan awal website yang berisikan navigasi bar yang terdiri dari section-section pada website ini, yaitu  **Biodata, Skills, Experiences, Education, dan Reach**. Dilengkapi dengan foto diri pada sisi kiri serta kategori website, nama diri, dan deskripsi singkat halaman pada sisi kanan.
+This is the initial appearance of the website which contains a navigation bar consisting of sections on this website namely **Biodata, Skills, Experiences, Education, and Reach**. Equipped with a self-portrait on the left and website category, personal name and short description on the right.
 
 
 ![LandingPage](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Landing%20Page.png)
 
 ## Biodata
-Section ini berisikan deskripsi diri dan hobi saya selaku pembuat website.
+This section contains a description of myself and my hobbies.
 
 ![AboutMe](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Biodata.png)
 
 ## Skills
-Section ini berisikan skills general dilengkapi rating yang mucul ketika di hover, dan rincian bahasa pemograman yang sudah saya pelajari.
+This section contains general skills with ratings that appear when hovered, and details of the programming languages that I have learned.
 
 
 ![Skills](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Skills.png)
 
 
 ## Experiences
-Section ini berisikan nama aplikasi, deskripsi aplikasi, dan gambar tampilan aplikasi dari projek kolaborasi dengan tim saya. Warna border project dibedakan berdasarkan jenis projectnya, border *red* (merah) untuk project "Machine Learning", border *gold* (emas kekuningan) untuk project "Artificial Intellegence", dan border *silver* (perak) untuk project dengan jenis lainnya. Kemudian akan ditampilkan project details dari tiap project yang diklik.
+This section contains the application name, application description, and an application display image from a collaborative project with my team. The project border colors are distinguished by the type of project, ***red*** border for "Machine Learning" projects, ***gold*** (yellowish gold) borders for "Artificial Intelligence" projects, and ***silver*** borders for other types of projects. Then the project details will be displayed for each project that is clicked.
 
 
 ![Experiences](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Experiences.png)
@@ -50,37 +50,37 @@ Section ini berisikan nama aplikasi, deskripsi aplikasi, dan gambar tampilan apl
 ![ProjectDetailsScreenView_HDP](https://github.com/nadyaclrp/SL5/blob/main/Documentation/HeartDiseasePrediction_ScreenDetails.jpeg)
 
 ## Education
-Section ini berisikan riwayat pendidikan formal dan riwayat pencapaian saya.
+This section contains my formal education history and achievement history.
 
 
 ![Education](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Education.png)
 
 
 ## Reach
-Section ini dibuat dengan tampilan berupa footer yang berisikan gambar diri, kontak dan social media yang dapat dihubungi, pilihan section, serta keterangan institusi yang dituju. Yang mana, ketika diklik tiap-tiap ikon dan tulisannya dapat langsung redirect ke link pribadi  kontak dan sosial media saya.
+This section is displayed like a footer containing a self-image, contact and social media that can be contacted, section options, and a description of the intended institution. Which, when each icon and text is clicked, can immediately redirect to my personal contact and social media links.
 
 ![Reach](https://github.com/nadyaclrp/SL5/blob/main/Documentation/Reach.png) 
 
 
-# Tutorial Mengunduh dan Menjalankan Website
+# Tutorial on Downloading and Running This Website
 
---> **Dengan Git Clone**
-1. Install Git terlebih dahulu, pada perangkat Anda. Installasi dapat menggunakan link berikut: https://www.atlassian.com/git/tutorials/install-git#windows
-2. Jalankan clone repository ini pada terminal perangkat Anda
+--> **Git Clone**
+1. Install Git first, on your device. Installation can use the following link: https://www.atlassian.com/git/tutorials/install-git#windows
+2. Run this clone repository on your terminal device
 `> https://github.com/nadyaclrp/SL5.git`.
-3. Buka folder repository yang sudah terdownload pada code editor Anda (Disarankan menggunakan Visual Studio Code).
-4. Jalankan perintah `composer install` dan `cp .env.example .env` pada terminal.
-5. Jalankan perintah `npm install` untuk menginstall node package manager pada device.
-6. Jalankan perintah `npm run build` dan `php artisan key:generate`.
-7. Jalankan program dengan perintah `php artisan serve`.
-8. Anda sudah dapat menjalankan program secara langsung pada device Anda, melalui link yang ditampilkan pada terminal.
+3. Open the downloaded repository folder in your code editor (Recommended using Visual Studio Code).
+4. Run the `composer install` and `cp .env.example .env` commands in the terminal.
+5. Run the `npm install` command to install the node package manager on the device.
+6. Run the `npm run build` and `php artisan key:generate` commands.
+7. Run the program with the command `php artisan serve`.
+8. You can now run the program directly on your device, via the link displayed on the terminal.
 
 
---> **Manual**
-1. Download repository dengan buka dan pilih pada tombol `Code > Download ZIP`.
-2. Buka folder yang sudah didownload pada Code Editor Anda (Disarankan menggunakan Visual Studio Code).
-3. Install npm package dengan NodeJS terlebih dahulu pada device Anda. Atau dapat mengikuti cara pada link berikut: https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
-4. Install package Tailwind CSS untuk Laravel pada device Anda. Atau dapat mengikuti cara pada link berikut: https://tailwindcss.com/docs/guides/laravel
-5. Buka terminal code editor Anda.
-6. Jalankan perintah `npm run dev` dan `php artisan serve` untuk menjalankan program.
-7. Anda sudah dapat menjalankan program secara langsung pada device Anda, melalui link yang ditampilkan pada terminal.
+--> **Manuals**
+1. Download the repository by opening it and selecting the `Code > Download ZIP` button.
+2. Open the downloaded folder in your Code Editor (Recommended using Visual Studio Code).
+3. Install the npm package with NodeJS first on your device. Or you can follow the method on the following link: https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+4. Install the Tailwind CSS package for Laravel on your device. Or you can follow the method on the following link: https://tailwindcss.com/docs/guides/laravel
+5. Open your terminal code editor.
+6. Execute the `npm run dev` and `php artisan serve` commands to run the program.
+7. You can now run the program directly on your device, via the link displayed on the terminal.
